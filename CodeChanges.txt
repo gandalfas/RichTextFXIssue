@@ -1,0 +1,26 @@
+CustomSegmentDemo
+ - replaced the content that is placed into area
+ - added ReadOnlyStyledDocumentBuilder and the building as one paragraph at a time
+ - removed runLater (no data)
+
+AbstractSegment
+ - removed 'data' - moved fields to subclasses
+
+MySegmentOps
+ - added code to handle null case
+
+StyledSegmentTextArea
+ - commented out setStyleCodecs (simplifying so can focus on issue)
+
+MySegmentCodec
+ - deleted (simplifying)
+
+TextSegment
+ - moved data field in
+
+LabelSegment
+ - moved data field in
+
+added these, modeled after LabelSegment:
+ - HyperlinkSegment
+ - ImageSegment
